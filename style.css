@@ -69,13 +69,13 @@ body {
 }
 
 .card {
-    width: 330px;
+    max-width: 250px;
     height: 435.4px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
     padding: 20px 40px 40px;
-    background: hsl(0, 41%, 40%);
+    background: hsl(0, 0%, 100%);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     transition: all 0.8s;
@@ -87,10 +87,11 @@ body {
     left: 47.2%; 
   }
 
-  img {
+img {
     max-width: 330px;
     position: absolute;
     top: 25%;
     left: 30%;
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;}
+    border-bottom-left-radius: 30px;
+}
