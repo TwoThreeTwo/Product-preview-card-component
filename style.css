@@ -6,3 +6,23 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+body {
+    Font-size: 14px;
+
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px 40px 40px;
+    background: rgb(95, 94, 101);
+    border-radius: 6px;
+    transition: all 0.8s;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap;  
+  }
