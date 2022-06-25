@@ -1,10 +1,12 @@
 @import url(https://fonts.google.com/specimen/Montserrat);
 @import url(https://fonts.google.com/specimen/Fraunces);
+
 @font-face {
     font-family: 'Montserrat';
     weight: 500, 700;
     src: url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
 }
+
 @font-face {
     font-family: 'Fraunces';
     weight: 700;
@@ -27,7 +29,7 @@ img {
     max-width: 330px;
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 35%;
     border-radius: 30px;
 }
 
@@ -37,17 +39,47 @@ img {
     left: 40%;
 }
 
+.cart {
+    background-color: hsl(145, 100%, 50%);
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(145, 100%, 20%);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    cursor: auto;
+
+}
+
+.icon-cart {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.background {
+    background-color: hsl(30, 38%, 92%);
+
+    
+}
+
 .card {
-    width: 400px;
-    height: 400px;
+    width: 330px;
+    height: 435.4px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
     padding: 20px 40px 40px;
-    background: rgb(95, 94, 101);
-    border-radius: 6px;
+    background: hsl(0, 41%, 40%);
+    border-radius: 30px;
     transition: all 0.8s;
     flex: wrap;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    position: absolute;
+    top: 25%;
+    left: 50%; 
   }
