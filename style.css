@@ -1,3 +1,15 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+@font-face {
+    font-family: 'Montserrat';
+    weight: 500, 700;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
+}
+@font-face {
+    font-family: 'Fraunces';
+    weight: 700;
+    src: url('https://fonts.googleapis.com/css?family=Fraunces:700');
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -9,7 +21,20 @@
 
 body {
     Font-size: 14px;
+}
 
+img {
+    max-width: 330px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border-radius: 30px;
+}
+
+.a {
+    position: absolute;
+    top: 10%;
+    left: 40%;
 }
 
 .card {
