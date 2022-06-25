@@ -76,7 +76,8 @@ body {
     flex-direction: column;
     padding: 20px 40px 40px;
     background: hsl(0, 41%, 40%);
-    border-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     transition: all 0.8s;
     flex: wrap;
     display: flex;
@@ -92,4 +93,4 @@ body {
     top: 25%;
     left: 30%;
     border-top-left-radius: 30px;
-}
+    border-bottom-left-radius: 30px;}
