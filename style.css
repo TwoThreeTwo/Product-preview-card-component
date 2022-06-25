@@ -23,24 +23,16 @@
 
 body {
     Font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
 }
-
-img {
-    max-width: 330px;
-    position: absolute;
-    top: 25%;
-    left: 35%;
-    border-radius: 30px;
-}
-
 .a {
     position: absolute;
     top: 10%;
     left: 40%;
 }
 
-.cart {
-    background-color: hsl(145, 100%, 50%);
+.button {
+    background-color: hsl(228, 12%, 48%);
     border-radius: 5px;
     padding: 10px;
     color: hsl(145, 100%, 20%);
@@ -48,23 +40,32 @@ img {
     font-weight: bold;
     text-align: center;
     width: 200px;
+    height: 25px;
     position: absolute;
+    cursor: pointer;
     top: 85%;
     left: 10%;
     cursor: auto;
 
 }
 
-.icon-cart {
-    font-size: 20px;
-    margin-right: 5px;
-    
+.cart {
+    background-color: hsl(228, 12%, 48%);
+    border: none;
+    height: 25px;
+} 
+
+.p1 {
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
 }
 
 .background {
-    background-color: hsl(30, 38%, 92%);
-
-    
+    background-color: hsl(30, 38%, 92%);    
 }
 
 .card {
@@ -82,5 +83,13 @@ img {
     flex-wrap: wrap; 
     position: absolute;
     top: 25%;
-    left: 50%; 
+    left: 47.2%; 
   }
+
+  img {
+    max-width: 330px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-top-left-radius: 30px;
+}
