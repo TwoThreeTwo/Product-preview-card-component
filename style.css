@@ -114,4 +114,12 @@ h1 {
     font-size: 40px;
 }
 
+p3 {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    position: absolute;
+    top: 73.8%;
+    left: 70%;
+}
+
 /*Increase card size and increase total image size to match card size*/
