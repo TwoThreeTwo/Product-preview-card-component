@@ -57,6 +57,7 @@ body {
 
 .p1 {
     font-weight: bold;
+    
 }
 
 .logo {
@@ -69,7 +70,8 @@ body {
 }
 
 .card {
-    max-width: 250px;
+    width: 250px;
+    max-width: 1440px;
     height: 435.4px;
     display: flex;
     margin: 0 auto;
@@ -88,10 +90,28 @@ body {
   }
 
 img {
-    max-width: 330px;
+    width: 330px;
+    min-width: none;
+    max-width: 1440px;
     position: absolute;
     top: 25%;
     left: 30%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    flex: wrap;
+    display: flex;
+    flex-wrap: wrap; 
 }
+
+p2 {
+    font-size: 40px;
+    position: absolute;
+    top: 70%;
+    color: hsl(228, 12%, 48%);;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/*Increase card size and increase total image size to match card size*/
