@@ -1,17 +1,9 @@
 @import url(https://fonts.google.com/specimen/Montserrat);
-@import url(https://fonts.google.com/specimen/Fraunces);
-
 @font-face {
-    font-family: 'Montserrat';
-    weight: 500, 700;
-    src: url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
+    font-family: "Montserrat", sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Montserrat');
 }
 
-@font-face {
-    font-family: 'Fraunces';
-    weight: 700;
-    src: url('https://fonts.googleapis.com/css?family=Fraunces:700');
-}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -24,6 +16,8 @@
 body {
     Font-size: 14px;
     background-color: hsl(30, 38%, 92%);
+    font-family: Montserrat, Fraunces ;
+
 }
 .a {
     position: absolute;
@@ -68,11 +62,10 @@ body {
 .background {
     background-color: hsl(30, 38%, 92%);    
 }
-
 .card {
-    width: 250px;
+    width: 200.2px;
     max-width: 1440px;
-    height: 435.4px;
+    height: 434px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
@@ -85,17 +78,18 @@ body {
     display: flex;
     flex-wrap: wrap; 
     position: absolute;
-    top: 25%;
-    left: 47.2%; 
+    top: 20%;
+    left: 50%; 
   }
 
 img {
-    width: 330px;
+    width: 300.5px;
+    height: 494px;
     min-width: none;
     max-width: 1440px;
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 20%;
+    left: 30.39%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     flex: wrap;
@@ -107,7 +101,7 @@ p2 {
     font-size: 40px;
     position: absolute;
     top: 70%;
-    color: hsl(228, 12%, 48%);;
+    color: hsl(77, 55%, 30%);
 }
 
 h1 {
